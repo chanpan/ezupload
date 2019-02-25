@@ -28,7 +28,7 @@ use appxq\sdii\helpers\SDHtml;
 
     <div class="form-group text-center">
         <button type="button" class="btn btn-default" data-dismiss="modal" id="modal_update_folder"><?= Yii::t('app','Cancel')?></button>
-        <button style="padding-left: 15px;padding-right: 15px;" id="<?= $btn_create_folder?>" type="submit" class="btn btn-primary" ><?= Yii::t('app','Save')?></button>
+        <button style="padding-left: 15px;padding-right: 15px;" type="submit" class="btn btn-primary" ><?= Yii::t('app','Save')?></button>
     </div>
 
     <?php ActiveForm::end(); ?>
